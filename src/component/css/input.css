@@ -1,0 +1,41 @@
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  margin-top: .6em;
+ }
+
+input{
+  height: 1.5em;
+  width: 25%;
+  background: transparent;
+  border-style: none;
+  border-bottom-style: solid;
+  border-bottom-color:whitesmoke;
+  margin-right: 1.5em;
+  margin-left: 1.5em;
+  text-emphasis-color: white;
+  color: whitesmoke;
+  font-size: 1.3em;
+  font-style: italic;
+}
+
+input::placeholder {
+  color: whitesmoke;
+  font-size: 1.3em;
+  font-style: italic;   
+  font-weight: 500;   
+}
+
+
+
+.button{
+  background-color: whitesmoke ;
+  border-radius: 12em;
+  border: none;
+  font-size: 1.3em;
+  font-style: italic;
+  font-weight: 550;  
+  }
+
+.button:hover {background-color: #259129}
