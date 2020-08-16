@@ -20,7 +20,7 @@ class Input extends React.Component{
         
         //const API_KEY = process.env.REACT_APP_API_KEY        
                 
-        let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=e204676eee7b9fc65ef49558cfc59cd3&units=metric`
+        let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=&units=metric`
        
         fetch(url)
         .then((response) => {
